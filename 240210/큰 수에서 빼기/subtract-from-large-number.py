@@ -4,5 +4,4 @@ a = int(inp[0])
 b = int(inp[1])
 
 #출력
-if a < b:
-    print(b - a)
+print(b - a)
