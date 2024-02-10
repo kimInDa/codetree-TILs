@@ -4,4 +4,7 @@ a = int(inp[0])
 b = int(inp[1])
 
 #출력
-print(b - a)
+if a <= b:
+    print(b - a)
+if a >= b:
+    print(a - b)
