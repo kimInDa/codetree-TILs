@@ -6,5 +6,5 @@ b = int(inp[1])
 #출력
 if a <= b:
     print(b - a)
-if a >= b:
+if a > b:
     print(a - b)
