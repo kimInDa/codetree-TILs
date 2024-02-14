@@ -9,4 +9,7 @@ mathB = int(arrB[1])
 engB = int(arrB[1])
 
 # 출력
-print(int(mathA > mathB and engA > engB))
+if mathA > mathB and engA > engB:
+    print(1)
+else:
+    print(0)
