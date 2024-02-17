@@ -10,7 +10,7 @@ if a < b:
     if b < c: 
         print(b)
     # c < a < b 일때
-    elif a < c: 
+    elif a > c: 
         print(a)
     # a < c < b 일때
     else:
