@@ -17,5 +17,7 @@ if a_symp == "Y" and a_temp >= 37:
         print("E")
     else:
         print("N")
+elif (b_symp == "Y" and b_temp >= 37) and (c_symp == "Y" and c_temp >= 37):
+    print("E")
 else:
     print("N")
