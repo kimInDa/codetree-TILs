@@ -6,16 +6,23 @@ c = int(arr[2])
 
 # 출력
 if a < b:
-    if b < c:
+    # a < b < c 일때
+    if b < c: 
         print(b)
-    elif b > c:
-        print(c)
-    else:
+    # c < a < b 일때
+    elif a < c: 
         print(a)
+    # a < c < b 일때
+    else:
+        print(c)
+# b < a 기준
 else:
+    # c < b < a 일때
     if b > c:
         print(b)
-    elif a > c:
-        print(c)
-    else:
+    # b < a < c 일때
+    elif a < c:
         print(a)
+    # b < c < a 일때
+    else:
+        print(c)
