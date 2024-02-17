@@ -9,7 +9,7 @@ if gender == 0:
     else:
         print("BOY")
 else:
-    if age > 19:
+    if age >= 19:
         print("WOMAN")
     else:
         print("GIRL")
