@@ -5,9 +5,13 @@ b = int(arr[1])
 c = int(arr[2])
 
 # 출력
-if a >= b and a >= c:
-    print(a)
-elif b >= a and b >= c:
-    print(b)
+if a >= b:
+    if a >= c:
+        print(a)
+    else:
+        print(c)
 else:
-    print(c)
+    if b >= c:
+        print(b)
+    else:
+        print(c)
