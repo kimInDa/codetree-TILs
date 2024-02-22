@@ -9,4 +9,4 @@ if c == 'A':
         print(i, end = ' ')
 else:
     for i in range(n, 0, -1):
-        print(n, end = ' ')
+        print(i, end = ' ')
