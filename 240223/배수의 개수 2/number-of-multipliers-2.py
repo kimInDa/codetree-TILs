@@ -1,0 +1,10 @@
+# 변수 선언, 입력
+cnt = 0
+
+# 출력
+for i in range(10):
+    n = int(input())
+    if n % 2 == 1:
+        cnt += 1
+
+print(cnt)
