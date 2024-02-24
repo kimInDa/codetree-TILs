@@ -10,6 +10,6 @@ for i in range(a, b + 1):
         sum_val += i 
         cnt += 1
 
-avg_val = f"{sum_val / cnt:.1f}"
+avg_val = sum_val / cnt
 
-print(sum_val, avg_val)
+print(sum_val, f"{avg_val:.1f}")
