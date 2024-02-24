@@ -9,5 +9,9 @@ for i in range(a, b + 1):
     if i % 5 == 0:
         sum_val += i
 
+for i in range(b, a + 1):
+    if i % 5 == 0:
+        sum_val += i
+
 # 출력
 print(sum_val)
