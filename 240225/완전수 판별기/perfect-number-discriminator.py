@@ -4,7 +4,7 @@ sum_val = 0
 
 # 1부터 n-1까지의 수중에서 약수의 합 구하기
 for i in range(1, n):
-    if i < n and n % i == 0:
+    if n % i == 0:
         sum_val += i
 
 # 출력
