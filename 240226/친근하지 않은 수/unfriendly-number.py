@@ -3,10 +3,10 @@ n = int(input())
 cnt = 0
 
 # 1 ~ n 사이의 수 중에서 친근하지 않은 수의 개수 구하기
+# 친근하지 않은 수 : 2 또는 3 또는 5로 나누어떨어지는 수
 for i in range(1, n + 1):
     if i % 2 == 0 or i % 3 == 0 or i % 5 == 0:
-        continue
-    
+        continue  
     cnt += 1
 
 # 출력
