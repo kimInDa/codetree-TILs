@@ -4,6 +4,7 @@ a = int(arr[0])
 b = int(arr[1])
 prod = 1
 
+# a의 b제곱 구하기
 for _ in range(b):
     prod *= a
 
