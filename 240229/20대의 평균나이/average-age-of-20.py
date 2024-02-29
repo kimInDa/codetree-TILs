@@ -6,7 +6,7 @@ while True:
     # 변수 선언, 입력
     n = int(input())
 
-    if n // 10 > 2:
+    if n > 29 or n < 20:
         break
     else:
         sum_val += n
