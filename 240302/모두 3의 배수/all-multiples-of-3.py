@@ -2,7 +2,7 @@
 satisfied = True
 
 # 5개의 수가 모두 3의 배수인지 판별
-for i in range(1, 6):
+for _ in range(5):
     # 입력
     n = int(input())
     
