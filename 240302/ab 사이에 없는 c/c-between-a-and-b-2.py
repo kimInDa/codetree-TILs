@@ -4,7 +4,7 @@ a = int(arr[0])
 b = int(arr[1])
 c = int(arr[2])
 
-satisfied = False
+satisfied = True
 
 # a이상 b이하에 c의 배수가 없는지 판별
 for i in range(a, b + 1):
