@@ -15,4 +15,4 @@ for i in range(a, b + 1):
 if satisfied == True:
     print("YES")
 else:
-    print("No")
+    print("NO")
