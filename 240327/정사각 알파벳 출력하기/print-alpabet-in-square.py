@@ -1,11 +1,11 @@
 # 변수 선언, 입력
 n = int(input())
-cnt = 65
+cnt = 'A'
 
 # n x n 크기의 알파벳 정사각형 출력
-for i in range(n):
-    for j in range(n):
-        print(chr(cnt), end = "")
-        cnt += 1
+for _ in range(n):
+    for _ in range(n):
+        print(cnt, end = "")
+        cnt = chr(ord(cnt) + 1)
 
     print()
