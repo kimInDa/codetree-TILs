@@ -1,6 +1,6 @@
 # 변수 선언, 입력
 n = int(input())
-cnt = 65
+cnt = 'A'
 
 # 출력
 for i in range(n):
@@ -10,10 +10,10 @@ for i in range(n):
     
     # 영문자 출력
     for j in range(n - i):
-        print(chr(cnt), end = " ")
-        cnt += 1
-        if cnt > ord('Z'):
-            cnt = ord('A')
+        print(cnt, end = " ")
+        cnt = chr(ord(cnt) + 1)
+        if ord(cnt) > ord('Z'):
+            cnt = 'A'
     
     print()
 
