@@ -4,7 +4,7 @@ start = int(arr[0])
 end = int(arr[1])
 cnt = 0;
 
-# start와 end 사이의 수 중 완전수의 개수 출력
+# start와 end 사이의 수 중 완전수의 개수 구하기
 for i in range(start, end + 1):
     sum = 0;
 
@@ -13,8 +13,9 @@ for i in range(start, end + 1):
         if i % j == 0:
             sum += j
     
-    # 완전수의 개수 구하기
+    # 완전수의 개수 카운팅
     if sum == i:
         cnt += 1
 
+# 완전수 개수 출력
 print(cnt)
