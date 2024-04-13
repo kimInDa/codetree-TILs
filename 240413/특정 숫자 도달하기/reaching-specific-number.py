@@ -19,4 +19,4 @@ for elem in result_arr:
 avg_val = sum_val / len(result_arr)
 
 # 합계와 평균 출력
-print(sum_val, avg_val)
+print(sum_val, f"{avg_val:.1f}")
