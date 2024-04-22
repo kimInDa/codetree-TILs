@@ -7,6 +7,7 @@ even_arr = [];
 # n개의 정수 입력 받기
 for _ in range(n):
     num = int(input())
+    
     # 입력된 수가 짝수이면 배열에 저장
     if(num!=0 and num % 2 == 0):
         even_arr.append(num)
